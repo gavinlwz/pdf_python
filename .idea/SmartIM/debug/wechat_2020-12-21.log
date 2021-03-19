@@ -1,0 +1,40 @@
+2020-12-21 20:24:27.272 [Thread-13] INFO  io.github.biezhi.wechat.api.WechatClient - [*] 正在获取 uuid ... 
+2020-12-21 20:24:27.273 [Thread-13] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 请求 => Request{method=GET, url=https://login.weixin.qq.com/jslogin?appid=wx782c26e4c19acffb&lang=zh_CN&fun=new&_=1608553467272, tag=null}
+
+2020-12-21 20:24:28.126 [Thread-13] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 响应 => window.QRLogin.code = 200; window.QRLogin.uuid = "Yco-CUSQ_A==";
+2020-12-21 20:24:28.126 [Thread-13] INFO  io.github.biezhi.wechat.api.WechatClient - [*] 正在获取二维码 ... 成功
+
+2020-12-21 20:24:29.666 [Thread-13] INFO  io.github.biezhi.wechat.api.WechatClient - [*] 请使用微信扫描二维码以登录 ... 
+
+2020-12-21 20:24:29.669 [Thread-13] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 请求 => Request{method=GET, url=https://wx.qq.com/cgi-bin/mmwebwx-bin/login?tip=1&uuid=Yco-CUSQ_A==&_1608553469668, tag=null}
+
+2020-12-21 20:24:34.243 [Thread-13] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 响应 => window.code=201;
+2020-12-21 20:24:34.243 [Thread-13] INFO  io.github.biezhi.wechat.api.WechatClient - [*] 请在手机上点击确认以登录 ... 
+
+2020-12-21 20:24:34.243 [Thread-13] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 请求 => Request{method=GET, url=https://wx.qq.com/cgi-bin/mmwebwx-bin/login?tip=0&uuid=Yco-CUSQ_A==&_1608553474243, tag=null}
+
+2020-12-21 20:24:37.154 [Thread-13] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 响应 => window.code=200;
+window.redirect_uri="https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=A_jRb4CTKvLmg3qlVUpxxazT@qrticket_0&uuid=Yco-CUSQ_A==&lang=zh_CN&scan=1608553473";
+2020-12-21 20:24:37.155 [Thread-13] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 请求 => Request{method=GET, url=https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=A_jRb4CTKvLmg3qlVUpxxazT@qrticket_0&uuid=Yco-CUSQ_A==&lang=zh_CN&scan=1608553473&fun=new, tag=null}
+
+2020-12-21 20:24:37.836 [Thread-13] INFO  io.github.biezhi.wechat.api.WechatApi - [*] 设置cookie []
+2020-12-21 20:26:59.797 [Thread-5] INFO  io.github.biezhi.wechat.api.WechatClient - [*] 正在获取 uuid ... 
+2020-12-21 20:26:59.799 [Thread-5] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 请求 => Request{method=GET, url=https://login.weixin.qq.com/jslogin?appid=wx782c26e4c19acffb&lang=zh_CN&fun=new&_=1608553619797, tag=null}
+
+2020-12-21 20:27:00.051 [Thread-5] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 响应 => window.QRLogin.code = 200; window.QRLogin.uuid = "QYJuxBllUQ==";
+2020-12-21 20:27:00.052 [Thread-5] INFO  io.github.biezhi.wechat.api.WechatClient - [*] 正在获取二维码 ... 成功
+
+2020-12-21 20:27:01.221 [Thread-5] INFO  io.github.biezhi.wechat.api.WechatClient - [*] 请使用微信扫描二维码以登录 ... 
+
+2020-12-21 20:27:01.222 [Thread-5] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 请求 => Request{method=GET, url=https://wx.qq.com/cgi-bin/mmwebwx-bin/login?tip=1&uuid=QYJuxBllUQ==&_1608553621222, tag=null}
+
+2020-12-21 20:27:05.826 [Thread-5] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 响应 => window.code=201;
+2020-12-21 20:27:05.826 [Thread-5] INFO  io.github.biezhi.wechat.api.WechatClient - [*] 请在手机上点击确认以登录 ... 
+
+2020-12-21 20:27:05.826 [Thread-5] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 请求 => Request{method=GET, url=https://wx.qq.com/cgi-bin/mmwebwx-bin/login?tip=0&uuid=QYJuxBllUQ==&_1608553625826, tag=null}
+
+2020-12-21 20:27:07.354 [Thread-5] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 响应 => window.code=200;
+window.redirect_uri="https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=A_XkqH1nrZjDf0isBptNljLm@qrticket_0&uuid=QYJuxBllUQ==&lang=zh_CN&scan=1608553625";
+2020-12-21 20:27:07.355 [Thread-5] DEBUG io.github.biezhi.wechat.api.WechatApi - [*] 请求 => Request{method=GET, url=https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=A_XkqH1nrZjDf0isBptNljLm@qrticket_0&uuid=QYJuxBllUQ==&lang=zh_CN&scan=1608553625&fun=new, tag=null}
+
+2020-12-21 20:27:07.865 [Thread-5] INFO  io.github.biezhi.wechat.api.WechatApi - [*] 设置cookie []
