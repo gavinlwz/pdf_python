@@ -6,4 +6,6 @@ url1=requests.get(url,headers=header)
 with open("别知己.MP3",'wb') as f:
     r = requests.get(url, timeout=600, verify=False)
     f.write(requests.get(url).content)
+
+    # f.write(url1.content)
     # http: // music.163.com / song / media / outer / url?id = 网易云音乐接口
