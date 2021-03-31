@@ -17,7 +17,7 @@ for i in result:
     titleinfo = i.xpath('./span/a/@title')  # 标题
     Authorinfo = i.xpath('./cite[@class="aut"]/a/font/text()')  # 作者
     # Authorinfo=Authorinfo.xpath('./a/font/text()')
-    Update = comp[5].strip()  # 时间
+    Update = comp[4].strip()  # 时间
 
     print('阅读', readinfo, '评论', commentinfo, '标题', titleinfo, '作者', Authorinfo, '时间', Update)
 # print(result)
