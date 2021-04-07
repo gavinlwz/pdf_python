@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea6d4c4-a48f-4041-913b-280e64afa092" name="默认变更列表" comment="股吧信息爬取">
-      <change afterPath="$PROJECT_DIR$/爬虫/xpath联系1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_3_26_16_25____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_3_29_8_27____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_3_26_16_25_取消提交了变更_[默认变更列表]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_3_29_8_27_取消提交了变更_[默认变更列表]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/xpath联系1.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/xpath联系1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +199,7 @@
       <workItem from="1617331551062" duration="117000" />
       <workItem from="1617688615530" duration="60000" />
       <workItem from="1617688745675" duration="6786000" />
+      <workItem from="1617754049770" duration="12205000" />
     </task>
     <task id="LOCAL-00001" summary="cs">
       <created>1616592971381</created>
@@ -251,7 +246,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="股吧信息爬取" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_learning$xpath1.coverage" NAME="xpath联系1 覆盖结果" MODIFIED="1617711689215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python_learning$xpath1.coverage" NAME="xpath联系1 覆盖结果" MODIFIED="1617766178071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python_learning$pip.coverage" NAME="更新pip库 覆盖结果" MODIFIED="1616593687303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python_learning$.coverage" NAME="唯一动漫图片 覆盖结果" MODIFIED="1616820109527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python_learning$xpath.coverage" NAME="xpath练习 覆盖结果" MODIFIED="1617689293312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
