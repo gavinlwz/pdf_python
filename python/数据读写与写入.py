@@ -118,21 +118,38 @@ faker
     uuid4()：随机UUID   
 """
 # def MakFakeData():
-
+import csv
+import pandas as pd
 
 if __name__ == '__main__':
-
+    all_products = []
     fakeer = Faker(locale='zh_CN')
-    for i in range(100):
-        xm=fakeer.name()
-        sf=fakeer.address()
-        yb=fakeer.ssn()
-        gs=fakeer.company_prefix()
+    for i in range(10000):
+        Name = fakeer.name()
+        address = fakeer.address()
+        ssn = fakeer.ssn()
+        prefix = fakeer.company_prefix()
+        number = fakeer.phone_number()
+        number = fakeer.credit_card_number()
 
-        data=[
-            xm,sf,yb,gs
-        ]
-        print(data)
+        all_products.append({  # 创建excel表
+            "姓名": Name,
+            "地址": address,
+            "身份证号": ssn,
+            "公司": prefix,
+            "手机号": number,
+            "信用卡号": number
+        })
+    keys = all_products[0].keys()
+
+    with open('个人信息.txt', 'w', newline='', encoding='utf-8') as output_file:
+        dict_writer = csv.DictWriter(output_file, keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(all_products)
+
+# 写入数据
+# pd.DataFrame(all_products,columns=keys).to_csv('个人信息.csv', encoding='utf-8-sig')
+
 """
 providers类名	作用
 base	基础包，包含各种数字字母随机方法
@@ -162,9 +179,9 @@ user_agent	用户代理（安卓设备渠道token，各类浏览器标识，操�
 
 # from faker import Faker
 #
-# # fake=Faker() #默认生成美国英文数据,加入local参数指定生成数据是中文
+# fake=Faker() #默认生成美国英文数据,加入local参数指定生成数据是中文
 # fake = Faker(locale='zh_CN')
-#
+# #
 # # 1.个人信息相关数据
 # print("个人信息类".center(20, "-"))
 # # 东浩
