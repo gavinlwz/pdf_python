@@ -92,15 +92,15 @@ html=etree.HTML(text)#自动补全 解析
 
 # result=html.xpath('count(//*[@data])')#10.统计有data属性的节点个数
 # result=html.xpath('concat(//li[@data="one"]/text(),//li[@data="three"]/text())')#11.查找并连接属性data=one和data=three的文本内容  使用concat()函数
-result=html.xpath('//h3[contains(text(),"H3")]/a/text()')#12.获取文本内容包含H3下a标签的文本内容 contains()
+# result=html.xpath('//h3[contains(text(),"H3")]/a/text()')#12.获取文本内容包含H3下a标签的文本内容 contains()
 
-# result=html.xpath('//a[@href]/ancestor::div/preceding::div/ul/li[contains(text(),"务")]/text()')#13.查询所有包含href的a标签的祖先节点中div节点同级之前的div标签下ul中内容包含“务”的li标签中的文本内容（复杂）
+result=html.xpath('//a[@href]/ancestor::div/preceding::div/ul/li[contains(text(),"务")]/text()')#13.查询所有包含href的a标签的祖先节点中div节点同级之前的div标签下ul中内容包含“务”的li标签中的文本内容（复杂）
 
 # result=html.xpath('//li[@data="one" or @code="84"]/text()')#14.查询data属性=one或者code属性=84的文本内容  or和|
 # result=html.xpath('//li[starts-with(@code,"8")]/text()')#15.查询属性code以8开头的li元素
 #result=html.xpath('//li[@code>100]/text()')#16.获取属性code值大于100的li
 # result=html.xpath('//ul[count(li)>5]/li/text()')#17.获取所有ul下li节点数大于5的ul节点中文本
-print(html)
+# print(html)
 
 '''
 ancestor::div 选取非当节点所有祖先
