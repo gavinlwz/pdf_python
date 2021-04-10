@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eea6d4c4-a48f-4041-913b-280e64afa092" name="默认变更列表" comment="读取和陷入">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/txt.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/数据读写与写入.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/数据读写与写入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/电影天堂title.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/电影天堂title.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/给爷爬股吧.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/给爷爬股吧.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,11 +220,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.电影天堂title" />
-        <item itemvalue="Python.给爷爬股吧" />
-        <item itemvalue="Python.数据读写与写入" />
         <item itemvalue="Python.xpath练习" />
         <item itemvalue="Python.xpath联系1" />
+        <item itemvalue="Python.电影天堂title" />
+        <item itemvalue="Python.给爷爬股吧" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +253,11 @@
       <workItem from="1618025310106" duration="74000" />
       <workItem from="1618025395136" duration="50000" />
       <workItem from="1618025457279" duration="1357000" />
-      <workItem from="1618026941478" duration="7231000" />
+      <workItem from="1618026941478" duration="7592000" />
+      <workItem from="1618096937686" duration="186000" />
+      <workItem from="1618097138942" duration="165000" />
+      <workItem from="1618097315583" duration="942000" />
+      <workItem from="1618098278791" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="cs">
       <created>1616592971381</created>
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618025021363</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="数据造假和">
+      <created>1618044516833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618044516833</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +316,9 @@
     <MESSAGE value="cs" />
     <MESSAGE value="股吧信息爬取" />
     <MESSAGE value="读取和陷入" />
-    <option name="LAST_COMMIT_MESSAGE" value="读取和陷入" />
+    <MESSAGE value="数据造假和" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据造假和" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_learning$.coverage" NAME="给爷爬股吧 覆盖结果" MODIFIED="1618042374813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
