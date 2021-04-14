@@ -1,3 +1,6 @@
+import json
+import random
+
 from faker import Faker
 
 """
@@ -121,31 +124,122 @@ faker
 import csv
 import pandas as pd
 
+
+# def fakeData():
+#     data = [
+#         ("姓名", "性别", "国家", "身份证号", "密码", "语文", "数学", "英语"),
+#         ("王菲", "女", "中国", "123", "111a", 90, 80, 100),
+#         ("王某飞", "男", "中国", "123", "111a", 60, 55, 50)
+#     ]
+#     xesLis = ['男', '女']
+#
+#     for i in range(10):
+#         r = random.randint(0, 1)
+#         Name = fakerInfo.name()
+#         sex = xesLis[r]
+#         country = fakerInfo.country()
+#         ssn = fakerInfo.ssn()
+#         tup = (Name, sex, country, ssn, random.randint(0, 120), random.randint(0, 120), random.randint(0, 120))
+#         data.append(tup)
+#     with open('个人信息1.csv', 'w', newline='', encoding='utf-8')as f:
+#         write = csv.writer(f)
+#         for i in data:
+#             write.writerow(i)
+
+
+# def fakeDataWrite():
+#     with open('个人信息1.csv', 'w', newline='', encoding='utf-8')as f:
+#         fieldName = ['姓名', '语文', '数学', '英语']
+#         writr = csv.DictWriter(f, fieldnames=fieldName)
+#         writr.writeheader()
+#         writr.writerow({
+#             '姓名': fakerInfo.name(),
+#             '语文': random.randint(0, 120),
+#             '数学': random.randint(0, 120),
+#             '英语': random.randint(0, 120)
+#         })
+#         writr.writerow({
+#             '姓名': fakerInfo.name(),
+#             '语文': random.randint(0, 120),
+#             '数学': random.randint(0, 120),
+#             '英语': random.randint(0, 120)
+#         })
+
+
+# def read():
+#     with open("个人信息1.csv",'r',newline='', encoding='utf-8')as r:
+#         reader=csv.reader(r)
+#         print(reader)
+
+
+def serializationAndDeserialization():
+    str = '''
+        [
+            {
+                "name":"小明",
+                "en":10,
+                "guojia":"Uk"
+            },
+            {
+                "name": "xiaohua1",
+                "en": 20,
+                "guojia": "Uk"
+            },
+            {
+                "name": "xiaohua1",
+                "en": 30,
+                "guojia": "UK"
+            },
+            {
+                "name": "xiaohua1",
+                "en": 40,
+                "guojia": "UK"
+            }
+        ]
+        '''
+    data = json.loads(str)
+    # print(data,type(str))
+    # datas = json.dumps(data)
+    # print(datas, type(datas))
+    print(data[0]['name'])
+    print(data[2]['guojia'])
+    print("---------------------------")
+    print(data[0].get('nam'))
+    print(data[0].get('nem', '张仨'))
+    print(data[0].get('naem', '张仨'))
+
+
 if __name__ == '__main__':
-    all_products = []
-    fakeer = Faker(locale='zh_CN')
-    for i in range(10000):
-        Name = fakeer.name()
-        address = fakeer.address()
-        ssn = fakeer.ssn()
-        prefix = fakeer.company_prefix()
-        number = fakeer.phone_number()
-        number = fakeer.credit_card_number()
+    fakerInfo = Faker(locale="zh_CN")
+    # fakeData()
+    # fakeDataWrite()
+    # read()
+    serializationAndDeserialization()
 
-        all_products.append({  # 创建excel表
-            "姓名": Name,
-            "地址": address,
-            "身份证号": ssn,
-            "公司": prefix,
-            "手机号": number,
-            "信用卡号": number
-        })
-    keys = all_products[0].keys()
-
-    with open('个人信息.txt', 'w', newline='', encoding='utf-8') as output_file:
-        dict_writer = csv.DictWriter(output_file, keys)
-        dict_writer.writeheader()
-        dict_writer.writerows(all_products)
+# all_products = []
+# fakeer = Faker(locale='zh_CN')
+# for i in range(10000):
+#     Name = fakeer.name()
+#     address = fakeer.address()
+#     ssn = fakeer.ssn()
+#     prefix = fakeer.company_prefix()
+#     number = fakeer.phone_number()
+#     number = fakeer.credit_card_number()
+#
+#     all_products.append({  # 创建excel表
+#         "姓名": Name,
+#         "地址": address,
+#         "身份证号": ssn,
+#         "公司": prefix,
+#         "手机号": number,
+#         "信用卡号": number
+#     })
+# keys = all_products[0].keys()
+#
+# with open('个人信息.txt', 'w', newline='', encoding='utf-8') as output_file:
+#     dict_writer = csv.DictWriter(output_file, keys)
+#     dict_writer.writeheader()
+#     dict_writer.writerows(all_products)
 
 # 写入数据
 # pd.DataFrame(all_products,columns=keys).to_csv('个人信息.csv', encoding='utf-8-sig')

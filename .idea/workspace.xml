@@ -2,7 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea6d4c4-a48f-4041-913b-280e64afa092" name="默认变更列表" comment="读取和陷入">
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/_distutils_hack/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/_distutils_hack/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas-1.2.3.dist-info/AUTHORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas-1.2.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas-1.2.3.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas-1.2.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas-1.2.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas-1.2.3.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas-1.2.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas-1.2.3.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas-1.2.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/algos.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/algos.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/groupby.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/groupby.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/hashing.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/hashing.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/hashtable.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/hashtable.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/index.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/index.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/indexing.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/indexing.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/internals.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/internals.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/interval.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/interval.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/join.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/join.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/json.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/json.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/lib.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/lib.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/missing.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/missing.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/ops.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/ops.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/ops_dispatch.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/ops_dispatch.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/parsers.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/parsers.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/properties.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/properties.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/reduction.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/reduction.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/reshape.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/reshape.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/sparse.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/sparse.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/testing.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/testing.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslib.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslib.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/base.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/base.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/ccalendar.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/ccalendar.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/conversion.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/conversion.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/dtypes.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/dtypes.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/fields.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/fields.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/nattype.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/nattype.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/np_datetime.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/np_datetime.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/offsets.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/offsets.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/parsing.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/parsing.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/period.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/period.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/strptime.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/strptime.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/timedeltas.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/timedeltas.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/timestamps.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/timestamps.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/timezones.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/timezones.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/tzconversion.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/tzconversion.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/vectorized.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/tslibs/vectorized.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/window/aggregations.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/window/aggregations.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/window/indexers.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/window/indexers.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/writers.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_libs/writers.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/core/arraylike.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/core/arraylike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/core/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/core/frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/core/internals/blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/core/internals/blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/core/nanops.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/core/nanops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/io/formats/format.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/io/formats/format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/io/sas/_sas.cp39-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/io/sas/_sas.cp39-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/io/sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/io/sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/plotting/_matplotlib/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/plotting/_matplotlib/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/plotting/_matplotlib/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/plotting/_matplotlib/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/plotting/_matplotlib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/plotting/_matplotlib/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/arrays/boolean/test_arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/arrays/boolean/test_arithmetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/arrays/masked/test_arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/arrays/masked/test_arithmetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/extension/test_boolean.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/extension/test_boolean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/frame/indexing/test_where.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/frame/indexing/test_where.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/frame/methods/test_replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/frame/methods/test_replace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/frame/test_reductions.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/frame/test_reductions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/frame/test_ufunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/frame/test_ufunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/formats/test_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/formats/test_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/formats/test_to_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/formats/test_to_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/formats/test_to_latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/formats/test_to_latex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/test_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/test_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/test_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/io/test_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/plotting/frame/test_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/plotting/frame/test_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/plotting/test_misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/plotting/test_misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/scalar/test_nat.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pandas/tests/scalar/test_nat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/pkg_resources/extern/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/pkg_resources/extern/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools-54.2.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools-54.2.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools-54.2.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools-54.2.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools-54.2.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools-54.2.0.dist-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools-54.2.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools-54.2.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/command/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/command/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/command/bdist_wininst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/command/install_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/command/install_scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/command/sdist.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/command/sdist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/extern/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lib/site-packages/setuptools/extern/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/数据读写与写入.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/数据读写与写入.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +119,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.idea/Lib/site-packages/faker/proxy.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1qCl7ynzTtCvhYmSWS5lxlZQKbn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,11 +133,56 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.电影天堂title">
-    <configuration name="给爷爬股吧" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.数据读写与写入">
+    <configuration name="数据读写与写入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/数据读写与写入.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据读写与写入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/数据读写与写入.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="超星自动登录" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +195,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/给爷爬股吧.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/超星自动登录.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据读写与写入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/数据读写与写入.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,6 +306,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/唯一动漫图片.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="更新pip库" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/更新pip库.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,10 +404,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.数据读写与写入" />
         <item itemvalue="Python.xpath练习" />
         <item itemvalue="Python.xpath联系1" />
         <item itemvalue="Python.电影天堂title" />
-        <item itemvalue="Python.给爷爬股吧" />
+        <item itemvalue="Python.更新pip库" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +443,37 @@
       <workItem from="1618097138942" duration="165000" />
       <workItem from="1618097315583" duration="942000" />
       <workItem from="1618098278791" duration="49000" />
+      <workItem from="1618098535340" duration="328000" />
+      <workItem from="1618099207921" duration="114000" />
+      <workItem from="1618099335133" duration="929000" />
+      <workItem from="1618100408228" duration="24000" />
+      <workItem from="1618100525275" duration="243000" />
+      <workItem from="1618100783480" duration="3000" />
+      <workItem from="1618105664591" duration="1436000" />
+      <workItem from="1618108177655" duration="393000" />
+      <workItem from="1618137383304" duration="21000" />
+      <workItem from="1618137848285" duration="2999000" />
+      <workItem from="1618187990725" duration="2824000" />
+      <workItem from="1618191800719" duration="42000" />
+      <workItem from="1618191853442" duration="5404000" />
+      <workItem from="1618229404176" duration="1207000" />
+      <workItem from="1618279500599" duration="3334000" />
+      <workItem from="1618283822314" duration="485000" />
+      <workItem from="1618310342202" duration="1075000" />
+      <workItem from="1618358317605" duration="4775000" />
+      <workItem from="1618364496903" duration="231000" />
+      <workItem from="1618364738386" duration="225000" />
+      <workItem from="1618365000106" duration="87000" />
+      <workItem from="1618365096689" duration="436000" />
+      <workItem from="1618365550226" duration="2174000" />
+      <workItem from="1618367752273" duration="203000" />
+      <workItem from="1618367987626" duration="95000" />
+      <workItem from="1618368132414" duration="70000" />
+      <workItem from="1618368382328" duration="21000" />
+      <workItem from="1618368411421" duration="144000" />
+      <workItem from="1618368567008" duration="389000" />
+      <workItem from="1618368970188" duration="179000" />
+      <workItem from="1618369160269" duration="2196000" />
     </task>
     <task id="LOCAL-00001" summary="cs">
       <created>1616592971381</created>
@@ -294,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618044516833</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="读取和写入数据造假">
+      <created>1618098687145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618098687145</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,14 +540,15 @@
     <MESSAGE value="股吧信息爬取" />
     <MESSAGE value="读取和陷入" />
     <MESSAGE value="数据造假和" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据造假和" />
+    <MESSAGE value="读取和写入数据造假" />
+    <option name="LAST_COMMIT_MESSAGE" value="读取和写入数据造假" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_learning$.coverage" NAME="给爷爬股吧 覆盖结果" MODIFIED="1618042374813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python_learning$.coverage" NAME="数据读写与写入 覆盖结果" MODIFIED="1618371275701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/python_learning$xpath1.coverage" NAME="xpath联系1 覆盖结果" MODIFIED="1617884146342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python_learning$xpath.coverage" NAME="xpath练习 覆盖结果" MODIFIED="1617689293312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python_learning$title.coverage" NAME="电影天堂title 覆盖结果" MODIFIED="1618044346088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python_learning$pip.coverage" NAME="更新pip库 覆盖结果" MODIFIED="1616593687303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python_learning$title.coverage" NAME="电影天堂title 覆盖结果" MODIFIED="1618280226534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python_learning$pip.coverage" NAME="更新pip库 覆盖结果" MODIFIED="1618362453687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
   </component>
 </project>
