@@ -197,16 +197,59 @@ def serializationAndDeserialization():
             }
         ]
         '''
-    data = json.loads(str)
-    # print(data,type(str))
-    # datas = json.dumps(data)
-    # print(datas, type(datas))
-    print(data[0]['name'])
-    print(data[2]['guojia'])
-    print("---------------------------")
-    print(data[0].get('nam'))
-    print(data[0].get('nem', '张仨'))
-    print(data[0].get('naem', '张仨'))
+    # data = json.loads(str)
+    # # print(data,type(str))
+    # # datas = json.dumps(data)
+    # # print(datas, type(datas))
+    # print(data[0]['name'])
+    # print(data[2]['guojia'])
+    # print("---------------------------")
+    # print(data[0].get('nam'))
+    # print(data[0].get('nem', '张仨'))
+    # print(data[0].get('naem', '张仨'))
+
+
+import json
+
+
+def JsonData():
+    jsondata = [
+        {"姓名": "王菲", "年龄": 20, "数学": 10},
+        {"姓名": "小郭", "年龄": 20, "数学": 100},
+        {"姓名": "老康头", "年龄": 20, "数学": 1, "data": {
+            "data1": 1,
+            "data2": 2}
+         }
+
+    ]
+
+    with open("D:\Desktop\datajosn.json", "w", encoding="utf-8")as f:
+        f.write(json.dumps(jsondata, ensure_ascii=False, indent=2))
+        # 默认是ASCII编码形式insden=是用来添加缩进单位以空格为单位
+
+
+from openpyxl import Workbook
+from openpyxl.styles import Alignment
+
+
+def XlsxFileData():
+    wb = Workbook()
+    she1 = wb.create_sheet('学元信息')  # 实例化
+    she2 = wb.create_sheet('成绩信息')
+    she1.append(["姓名", "年龄", "gender"])  # 添加数据
+    she1.append(["王菲", "80", "女"])
+    she1.append(["老康头", "120", "中性"])
+    she1.append(["小郭", "18", "女"])
+    she2.append(["语文", "数学", "英语"])
+    she1["F10"] = "123"
+    she1.merge_cells('H6:J14')  # 合并单元格
+    she1.merge_cells('A{}:B{}'.format(5, 6))
+    cell = she1.cell(row=8, column=4)
+    cell.value = "我是针对你"
+    cell.alignment = Alignment(horizontal="center", vertical="center")
+    del wb["Sheet"]  # 删除
+    print(wb.sheetnames)  # 输出单元格
+    wb.save(r'D:\Desktop\nameinfo.xlsx')  # 输出路径
 
 
 if __name__ == '__main__':
@@ -214,8 +257,9 @@ if __name__ == '__main__':
     # fakeData()
     # fakeDataWrite()
     # read()
-    serializationAndDeserialization()
-
+    # serializationAndDeserialization()
+    JsonData()
+    XlsxFileData()
 # all_products = []
 # fakeer = Faker(locale='zh_CN')
 # for i in range(10000):
