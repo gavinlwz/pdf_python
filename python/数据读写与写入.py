@@ -132,7 +132,7 @@ import pandas as pd
 #         ("王某飞", "男", "中国", "123", "111a", 60, 55, 50)
 #     ]
 #     xesLis = ['男', '女']
-#
+# #
 #     for i in range(10):
 #         r = random.randint(0, 1)
 #         Name = fakerInfo.name()
@@ -211,45 +211,122 @@ def serializationAndDeserialization():
 
 import json
 
+# def JsonData():
+#     jsondata = [
+#         {"姓名": "王菲", "年龄": 20, "数学": 10},
+#         {"姓名": "小郭", "年龄": 20, "数学": 100},
+#         {"姓名": "老康头", "年龄": 20, "数学": 1, "data": {
+#             "data1": 1,
+#             "data2": 2}
+#          }
+#
+#     ]
+#
+#     with open("D:\Desktop\datajosn.json", "w", encoding="utf-8")as f:
+#         f.write(json.dumps(jsondata, ensure_ascii=False, indent=2))
+#         # 默认是ASCII编码形式insden=是用来添加缩进单位以空格为单位
 
-def JsonData():
-    jsondata = [
-        {"姓名": "王菲", "年龄": 20, "数学": 10},
-        {"姓名": "小郭", "年龄": 20, "数学": 100},
-        {"姓名": "老康头", "年龄": 20, "数学": 1, "data": {
-            "data1": 1,
-            "data2": 2}
-         }
-
-    ]
-
-    with open("D:\Desktop\datajosn.json", "w", encoding="utf-8")as f:
-        f.write(json.dumps(jsondata, ensure_ascii=False, indent=2))
-        # 默认是ASCII编码形式insden=是用来添加缩进单位以空格为单位
-
-
+import xlwt
+import xlrd
 from openpyxl import Workbook
 from openpyxl.styles import Alignment
+from openpyxl import load_workbook
+from openpyxl.styles import Font
 
 
-def XlsxFileData():
-    wb = Workbook()
-    she1 = wb.create_sheet('学元信息')  # 实例化
-    she2 = wb.create_sheet('成绩信息')
-    she1.append(["姓名", "年龄", "gender"])  # 添加数据
-    she1.append(["王菲", "80", "女"])
-    she1.append(["老康头", "120", "中性"])
-    she1.append(["小郭", "18", "女"])
-    she2.append(["语文", "数学", "英语"])
-    she1["F10"] = "123"
-    she1.merge_cells('H6:J14')  # 合并单元格
-    she1.merge_cells('A{}:B{}'.format(5, 6))
-    cell = she1.cell(row=8, column=4)
-    cell.value = "我是针对你"
-    cell.alignment = Alignment(horizontal="center", vertical="center")
-    del wb["Sheet"]  # 删除
-    print(wb.sheetnames)  # 输出单元格
-    wb.save(r'D:\Desktop\nameinfo.xlsx')  # 输出路径
+# def XlsxFileData():
+#     wb = Workbook()
+#     # she1 = wb.create_sheet('学元信息')  # 实例化
+#     # she2 = wb.create_sheet('成绩信息')
+#     # she1.append(["姓名", "年龄", "gender"])  # 添加数据
+#     # she1.append(["王菲", "80", "女"])
+#     # she1.append(["老康头", "120", "中性"])
+#     # she1.append(["小郭", "18", "女"])
+#     # she2.append(["语文", "数学", "英语"])
+#     # she1["F10"] = "123"
+#     # she1.merge_cells('H6:J14')  # 合并单元格
+#     # she1.merge_cells('A{}:B{}'.format(5, 6))
+#     # cell = she1.cell(row=8, column=4)
+#     # cell.value = "我是针对你"
+#     # cell.alignment = Alignment(horizontal="center", vertical="center")
+#     # del wb["Sheet"]  # 删除
+#     she2 = wb.create_sheet("成绩表")
+#     she3 = wb.create_sheet("学院表")
+#
+#     she2.append(["语文", "数学", "英语"])
+#     she3.append(["姓名", "学号", "班级"])
+#
+#     she3.append(["王菲", "003", "大二"])
+#     she3.append(["王某", "002", "大三"])
+#     she3.append(["菲某", "001", "大一"])
+#     # 合并单元格
+#     she2.merge_cells('A4:B5')
+#     she2.merge_cells('C6:D7')
+#     she2.merge_cells('A{}:B{}'.format(13, 17))
+#     # 对单个单元格进行赋值
+#     she3['B2'] = '007'
+#     # 输出所有的工作簿
+#     del wb["Sheet"]  # 删除
+#     print(wb.sheetnames)  # 输出单元格
+#     cell = she2.cell(row=13, column=1)
+#
+#     wb.save(r'D:\Desktop\nameinfo.xlsx')  # 输出路径
+#     pass
+#
+#
+# def XlsxLoadData():
+#     wb = load_workbook(r'D:\Desktop\nameinfo.xlsx')
+#     print(wb.sheetnames)
+#     sh = wb['学院表']
+#     print(sh.max_row, sh.max_column)
+#     print(sh["A2"].value)
+#     sh[1][2].value = "单元格修改"
+#     wb.save(r'D:\Desktop\nameinfo.xlsx')
+#
+#
+# def XlscxChangeStyle():
+#     wb = load_workbook(r'D:\Desktop\nameinfo.xlsx')
+#     print(wb.sheetnames)
+#     sh = wb['学院表']
+#     fontInfo = Font(name="微软雅黑", size=20, bold=True, color="F0F8FF")
+#     sh['C1'].font = fontInfo
+#     sh.row_dimensions[3].height = 30  # 行高
+#     sh.column_dimensions['B'].width = 20  # 列宽
+def xlsFileData():
+    data = [
+        ("水星", 12, 12),
+        ("金星", 12, 12),
+        ("地球", 12, 12),
+        ("火星", 12, 12),
+        ("木星", 12, 12),
+        ("土星", 12, 12),
+        ("天王星", 12, 12),
+        ("海王星", 12, 12),
+    ]
+    book = xlwt.Workbook()  # 创建一个workbook对象
+    sh = book.add_sheet("太阳系八大行星")
+    col_name = ["行星名", "距离", "与地球质量比"]
+    for col, name in enumerate(col_name):
+        sh.write(0, col, name)
+        sh.col(col).width = 256 * 20
+
+    for i, line in enumerate(data):
+        for j, item in enumerate(line):
+            sh.write(i + 1, j, item)
+            pass
+
+    book.save(r"D:\Desktop\nameinfo.xls")
+
+
+def xlsLoadData():
+    book = xlrd.open_workbook(r"D:\Desktop\nameinfo.xls")
+    # print(book.sheet_by_names())#获取工作簿名
+    sheet = book.sheet_by_name("太阳系八大行星")  #
+    print(sheet.nrows)  # 输出有效行数
+    print(sheet.ncols)  # 输出有效列数
+    print(sheet.cell_value(3, 0))  # 从零开始
+    print(sheet.row(3))
+    print(sheet.cell(3, 0))
 
 
 if __name__ == '__main__':
@@ -258,8 +335,13 @@ if __name__ == '__main__':
     # fakeDataWrite()
     # read()
     # serializationAndDeserialization()
-    JsonData()
-    XlsxFileData()
+    # JsonData()
+    # XlsxFileData()
+    # XlsxLoadData()
+    # XlscxChangeStyle()
+    xlsFileData()
+    xlsLoadData()
+
 # all_products = []
 # fakeer = Faker(locale='zh_CN')
 # for i in range(10000):

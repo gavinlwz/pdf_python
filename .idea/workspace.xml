@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eea6d4c4-a48f-4041-913b-280e64afa092" name="默认变更列表" comment="读取和陷入">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/个人信息1.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python/数据读写与写入.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/数据读写与写入.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RunManager" selected="Python.数据读写与写入">
     <configuration name="数据读写与写入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -387,6 +388,13 @@
       <workItem from="1618396135311" duration="13000" />
       <workItem from="1618451795016" duration="1000" />
       <workItem from="1618531622406" duration="6737000" />
+      <workItem from="1618539579246" duration="650000" />
+      <workItem from="1618546982980" duration="243000" />
+      <workItem from="1618742751872" duration="28000" />
+      <workItem from="1618744987301" duration="79000" />
+      <workItem from="1618963084022" duration="174000" />
+      <workItem from="1618963269251" duration="9244000" />
+      <workItem from="1618973885967" duration="2096000" />
     </task>
     <task id="LOCAL-00001" summary="cs">
       <created>1616592971381</created>
@@ -444,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618371812001</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="表格练习">
+      <created>1618539660848</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618539660848</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,11 +483,12 @@
     <MESSAGE value="数据造假和" />
     <MESSAGE value="读取和写入数据造假" />
     <MESSAGE value="读取和陷入" />
-    <option name="LAST_COMMIT_MESSAGE" value="读取和陷入" />
+    <MESSAGE value="表格练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="表格练习" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_learning$.coverage" NAME="数据读写与写入 覆盖结果" MODIFIED="1618537760035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/python_learning$.coverage" NAME="数据读写与写入 覆盖结果" MODIFIED="1618975959012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/python_learning$xpath1.coverage" NAME="xpath联系1 覆盖结果" MODIFIED="1617884146342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python_learning$xpath.coverage" NAME="xpath练习 覆盖结果" MODIFIED="1617689293312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python_learning$title.coverage" NAME="电影天堂title 覆盖结果" MODIFIED="1618280226534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
