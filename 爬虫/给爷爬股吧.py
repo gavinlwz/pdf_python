@@ -17,7 +17,7 @@ text = requests.get(url, headers=header)  # 头
 text.encoding = "utf-8"  # 转gbk
 html = etree.HTML(text.text)  # 解析
 result = html.xpath('//ul[@class="newlist"]/li')
-all_products = []
+all_products = []  # 全局函数爬起的数据存入列表
 for i in result:
     comp = i.xpath('./cite/text()')
     readinfo = comp[0].strip()  # 阅读
@@ -34,7 +34,6 @@ for i in result:
         Update,
     ])
     # print(all_products)
-    keys = all_products[0]
 
     book = xlwt.Workbook()  # 创建一个workbook对象
     sh = book.add_sheet("股吧")
@@ -42,8 +41,8 @@ for i in result:
     for col, name in enumerate(col_name):
         sh.write(0, col, name)
 
-    for i, line in enumerate(all_products):
-        for j, item in enumerate(line):
-            sh.write(i + 1, j, item)
+    for i, line in enumerate(all_products):  # 外层循环enumerate函数生成下标存入i中每行数据存入line中
+        for j, item in enumerate(line):  # 内层循环enumerate函数生成下标存入j中每个单个数据存入iten中
+            sh.write(i + 1, j, item)  # i+1是规避低=第零行 j规避 item数据
             pass
     book.save(r"D:\Desktop\股吧.xls")
