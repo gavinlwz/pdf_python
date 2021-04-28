@@ -50,4 +50,4 @@ for i in divlist:
         for j, item in enumerate(line):  # 内层循环enumerate函数生成下标存入j中每个单个数据存入iten中
             sh.write(i + 1, j, item)  # i+1是规避低=第零行 j规避 item数据
             pass
-    book.save(r"D:\Desktop\股吧.xls")
+    book.save(r"D:\Desktop\.xls")
