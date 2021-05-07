@@ -95,32 +95,30 @@ nodename:获取此节点下的所有自节点
 # print(result)
 
 
-
-
 # html=etree.HTML(text)#自动补全 解析
 # result=html.xpath('//li[@class="item-0"]/a/text()')#会出现/n的原因是xpath解析是自动补全了一个代码/n是换行符的意思
 # print(result)
 
 
-
-
+#
+#
 from bs4 import BeautifulSoup
 
-# url='https://ip.jiangxianli.com/'
-# header={
-#     "User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57",
-# }
-# text=requests.get(url,headers=header)#头
-# html=etree.HTML(text.text)#解析
-# result=etree.tostring(html)#转成html文件
-# result=result.decode("utf-8")#转码
-# result=html.xpath('//*[@class="layui-table"]/tbody/tr')
-# for tr in result:
-#     tds=tr.xpath('./td/text()')
-#     ipinfo=tds[0].strip()
-#     portinfo=tds[1].strip()
-#
-#     print(ipinfo,portinfo)
+url = 'https://ip.jiangxianli.com/'
+header = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57",
+}
+text = requests.get(url, headers=header)  # 头
+html = etree.HTML(text.text)  # 解析
+result = etree.tostring(html)  # 转成html文件
+result = result.decode("utf-8")  # 转码
+result = html.xpath('//*[@class="layui-table"]/tbody/tr')
+for tr in result:
+    tds = tr.xpath('./td/text()')
+    ipinfo = tds[0].strip()
+    portinfo = tds[1].strip()
+
+    print(ipinfo, portinfo, tds)
 
 '''
 多属性匹配
