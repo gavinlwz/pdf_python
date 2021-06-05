@@ -5,8 +5,8 @@
 # else:
 #     print('很抱歉，猜错了')
 # ------------------------------
-x=int(input('请输入一整数：'))
-if x%2==0:
+x = int(input('请输入一整数：'))
+if x % 2 == 0:
     print('x为偶数')
 else:
     print('x为奇数')
@@ -42,12 +42,12 @@ s=(p*(p-a)*(p-b)*(p-c))**0.5
 print(s)
 '''
 #
-s=float(input('请输入时间'))
-if s<8:
+s = float(input('请输入时间'))
+if s < 8:
     print('还可以继续睡')
 else:
-    x=float(input('请输入星期几'))
-    if x==6or x==7:
-            print('今天不上课，继续睡')
+    x = float(input('请输入星期几'))
+    if x == 6 or x == 7:
+        print('今天不上课，继续睡')
     else:
-                print('起来上课')
+        print('起来上课')
