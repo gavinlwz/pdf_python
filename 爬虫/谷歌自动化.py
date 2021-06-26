@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 browser=webdriver.Chrome()
-browser.get('https://www.baidu.com')
+browser.get('https://alexa.chinaz.com/hm/bilibili.com')
 time.sleep(2)
 # print(browser.current_url)#获取当前页面url
 # print(browser.title)#获取页面标签p
@@ -20,16 +20,10 @@ time.sleep(2)
 # browser.find_element_by_css_selector('#kw').send_keys('京东')
 # #通过class name 方式定位
 # browser.find_element_by_class_name('s_ipt').send_keys('京东')
-#通过xpath方式定位
-browser.find_element_by_xpath("//input[@id='kw']").send_keys("京东")
+# 通过xpath方式定位
+browser.find_element_by_id('highcharts-0')
+print(browser)
 
-
-
-
-
-
-browser.find_element_by_id('su').click()#找到按钮su并点击一下
-time.sleep(3)
-browser.quit()
-
-
+# browser.find_element_by_id('su').click()#找到按钮su并点击一下
+# time.sleep(3)
+# browser.quit()

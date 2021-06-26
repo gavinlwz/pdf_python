@@ -52,7 +52,7 @@ def dataHtml(bs,db):
         try:
             shop=i.find(class_='J_im_icon').find('a')['title']#获取的商品链接
         except AttributeError:
-           print('无法获取数据')
+            print('无法获取数据')
         print('商品名', Tradename, '价格', price, '店铺', shop,'链接',link)
         para = [Tradename,price,shop,link ]
         print(para)
