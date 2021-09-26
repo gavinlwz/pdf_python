@@ -233,7 +233,6 @@ from openpyxl.styles import Alignment
 from openpyxl import load_workbook
 from openpyxl.styles import Font
 
-
 # def XlsxFileData():
 #     wb = Workbook()
 #     # she1 = wb.create_sheet('学元信息')  # 实例化
@@ -292,41 +291,41 @@ from openpyxl.styles import Font
 #     sh['C1'].font = fontInfo
 #     sh.row_dimensions[3].height = 30  # 行高
 #     sh.column_dimensions['B'].width = 20  # 列宽
-def xlsFileData():
-    data = [
-        ("水星", 12, 12),
-        ("金星", 12, 12),
-        ("地球", 12, 12),
-        ("火星", 12, 12),
-        ("木星", 12, 12),
-        ("土星", 12, 12),
-        ("天王星", 12, 12),
-        ("海王星", 12, 12),
-    ]
-    book = xlwt.Workbook()  # 创建一个workbook对象
-    sh = book.add_sheet("太阳系八大行星")
-    col_name = ["行星名", "距离", "与地球质量比"]
-    for col, name in enumerate(col_name):
-        sh.write(0, col, name)
-        sh.col(col).width = 256 * 20
-
-    for i, line in enumerate(data):
-        for j, item in enumerate(line):
-            sh.write(i + 1, j, item)
-            pass
-
-    book.save(r"D:\Desktop\nameinfo.xls")
-
-
-def xlsLoadData():
-    book = xlrd.open_workbook(r"D:\Desktop\nameinfo.xls")
-    # print(book.sheet_by_names())#获取工作簿名
-    sheet = book.sheet_by_name("太阳系八大行星")  #
-    print(sheet.nrows)  # 输出有效行数
-    print(sheet.ncols)  # 输出有效列数
-    print(sheet.cell_value(3, 0))  # 从零开始
-    print(sheet.row(3))
-    print(sheet.cell(3, 0))
+# def xlsFileData():
+#     data = [
+#         ("水星", 12, 12),
+#         ("金星", 12, 12),
+#         ("地球", 12, 12),
+#         ("火星", 12, 12),
+#         ("木星", 12, 12),
+#         ("土星", 12, 12),
+#         ("天王星", 12, 12),
+#         ("海王星", 12, 12),
+#     ]
+#     book = xlwt.Workbook()  # 创建一个workbook对象
+#     sh = book.add_sheet("太阳系八大行星")
+#     col_name = ["行星名", "距离", "与地球质量比"]
+#     for col, name in enumerate(col_name):
+#         sh.write(0, col, name)
+#         sh.col(col).width = 256 * 20
+#
+#     for i, line in enumerate(data):
+#         for j, item in enumerate(line):
+#             sh.write(i + 1, j, item)
+#             pass
+#
+#     book.save(r"D:\Desktop\nameinfo.xls")
+#
+#
+# def xlsLoadData():
+#     book = xlrd.open_workbook(r"D:\Desktop\nameinfo.xls")
+#     # print(book.sheet_by_names())#获取工作簿名
+#     sheet = book.sheet_by_name("太阳系八大行星")  #
+#     print(sheet.nrows)  # 输出有效行数
+#     print(sheet.ncols)  # 输出有效列数
+#     print(sheet.cell_value(3, 0))  # 从零开始
+#     print(sheet.row(3))
+#     print(sheet.cell(3, 0))
 
 
 if __name__ == '__main__':
@@ -339,33 +338,33 @@ if __name__ == '__main__':
     # XlsxFileData()
     # XlsxLoadData()
     # XlscxChangeStyle()
-    xlsFileData()
-    xlsLoadData()
+    # xlsFileData()
+    # xlsLoadData()
 
-# all_products = []
-# fakeer = Faker(locale='zh_CN')
-# for i in range(10000):
-#     Name = fakeer.name()
-#     address = fakeer.address()
-#     ssn = fakeer.ssn()
-#     prefix = fakeer.company_prefix()
-#     number = fakeer.phone_number()
-#     number = fakeer.credit_card_number()
-#
-#     all_products.append({  # 创建excel表
-#         "姓名": Name,
-#         "地址": address,
-#         "身份证号": ssn,
-#         "公司": prefix,
-#         "手机号": number,
-#         "信用卡号": number
-#     })
-# keys = all_products[0].keys()
-#
-# with open('个人信息.txt', 'w', newline='', encoding='utf-8') as output_file:
-#     dict_writer = csv.DictWriter(output_file, keys)
-#     dict_writer.writeheader()
-#     dict_writer.writerows(all_products)
+all_products = []
+fakeer = Faker(locale='zh_CN')
+for i in range(10000):
+    Name = fakeer.name()
+    address = fakeer.address()
+    ssn = fakeer.ssn()
+    prefix = fakeer.company_prefix()
+    number = fakeer.phone_number()
+    number = fakeer.credit_card_number()
+
+    all_products.append({  # 创建excel表
+        "姓名": Name,
+        "地址": address,
+        "身份证号": ssn,
+        "公司": prefix,
+        "手机号": number,
+        "信用卡号": number
+    })
+keys = all_products[0].keys()
+
+with open('个人信息.txt', 'w', newline='', encoding='utf-8') as output_file:
+    dict_writer = csv.DictWriter(output_file, keys)
+    dict_writer.writeheader()
+    dict_writer.writerows(all_products)
 
 # 写入数据
 # pd.DataFrame(all_products,columns=keys).to_csv('个人信息.csv', encoding='utf-8-sig')
