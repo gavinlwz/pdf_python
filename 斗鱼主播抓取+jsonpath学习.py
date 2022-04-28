@@ -41,5 +41,5 @@ for name, hot, roomName, roomId in zip(names, hots, roomIds, roomNames):  # zip�
     itme['主播人气'] = hot
     itme['房间ID'] = roomId
     itme['房间名字'] = roomName
-    # print(itme)  # 字典格式化输出
+    # print(itme)  # 字典格式化输出\
     print(itme.items())  # 取出字典输出
